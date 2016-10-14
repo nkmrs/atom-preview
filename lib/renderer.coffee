@@ -103,6 +103,7 @@ module.exports =
         options = {
           paths: [ # Specify search paths for @import directives
             '.'
+            path.dirname(filepath)
             atomVariablesPath
           ]
         }
